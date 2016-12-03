@@ -1,3 +1,5 @@
 venv
+pkey.py
 *.pyc
 .DS_Store
+raw_data
