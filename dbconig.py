@@ -31,7 +31,7 @@ select_sql = 'select * from fx_rate_day;'
 
 drop_sql = 'drop table fx_rate_day;'
 
-index_sql = 'create index q_currency on fx_rate_day(currency);'
+index_sql = 'create index q_currenttime on fx_rate_day(currenttime);'
 
 try:
     cursor.execute(create_fx_rate_day_sql)
